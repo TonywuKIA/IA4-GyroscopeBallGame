@@ -1,49 +1,28 @@
-# Assignment 4 – Gyroscope-Controlled Ball Game
+# Gyroscope-Controlled Ball Game
 
-## Overview
+## Description
 
-This project implements a simple tilt-controlled ball game using Android and Jetpack Compose.
-The player controls a ball by tilting the device and navigates through obstacles to reach the goal area.
+A simple tilt-controlled ball game built using Jetpack Compose and Canvas.
 
----
+The player tilts the device to move a ball across the screen, avoid obstacles, and reach the goal area.
 
 ## Features
 
-* Motion-based control using device sensors (accelerometer)
-* Ball movement based on device tilt
-* Obstacles forming a simple maze
-* Collision detection to prevent passing through obstacles
-* Goal area (green region)
-* Optional win message and reset button
-
----
-
-## Implementation Details
-
-* Built using **Kotlin** and **Jetpack Compose**
-* UI is rendered using the **Canvas API**
-* Device motion is captured using the **SensorManager**
-* Accelerometer is used for reliable tilt control (especially in emulator)
-
----
+* Tilt-based control using device sensors
+* Canvas rendering for the game scene
+* Collision detection with walls and obstacles
+* Simple maze-style gameplay
 
 ## How to Run
 
 1. Open the project in Android Studio
-2. Run the app on:
-
-   * A physical Android device (recommended), or
-   * An emulator (use Virtual Sensors to simulate tilt)
-3. Tilt the device to move the ball toward the goal
-
----
+2. Run on a physical device (recommended) or emulator
+3. Tilt the device to control the ball
 
 ## Notes
 
-* Emulator testing requires manually adjusting tilt via:
-
-  * Extended Controls → Virtual Sensors → Device Pose
-* A physical device provides a smoother experience
+When using an emulator, tilt can be simulated via:
+Extended Controls → Virtual Sensors → Device Pose.
 
 ---
 
