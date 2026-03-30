@@ -4,7 +4,7 @@
 
 A simple tilt-controlled ball game built using Jetpack Compose and Canvas.
 
-The player tilts the device to move a ball across the screen, avoid obstacles, and reach the goal area.
+The player tilts the device to move a ball across the screen, avoid obstacles, and reach the goal area. （shows
 
 ## Features
 
@@ -12,6 +12,7 @@ The player tilts the device to move a ball across the screen, avoid obstacles, a
 * Canvas rendering for the game scene
 * Collision detection with walls and obstacles
 * Simple maze-style gameplay
+* Goal area with win feedback ("You Win!" message))
 
 ## How to Run
 
