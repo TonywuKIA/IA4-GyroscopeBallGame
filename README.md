@@ -26,3 +26,4 @@ Extended Controls → Virtual Sensors → Device Pose.
 
 ## Screenshots
 <img width="486" height="1035" alt="image" src="https://github.com/user-attachments/assets/e2eaf538-76fd-4452-a972-623ae4af1198" />
+<img width="521" height="1030" alt="image" src="https://github.com/user-attachments/assets/e0115e44-a88c-4647-8fa6-939175c2fa62" />
